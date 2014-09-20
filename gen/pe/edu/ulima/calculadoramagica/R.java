@@ -16,6 +16,9 @@ public final class R {
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static final int dias_semana=0x7f0c0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1085,12 +1088,12 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
-        public static final int but7=0x7f05003c;
-        public static final int but8=0x7f05003d;
-        public static final int but9=0x7f05003e;
+        public static final int but7=0x7f05003d;
+        public static final int but8=0x7f05003e;
+        public static final int but9=0x7f05003f;
         public static final int butCancel=0x7f050044;
-        public static final int butMas=0x7f05003f;
-        public static final int butOk=0x7f050043;
+        public static final int butMas=0x7f050040;
+        public static final int butOk=0x7f050045;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1099,8 +1102,8 @@ containing a value of this type.
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050030;
         public static final int end=0x7f050013;
-        public static final int ete=0x7f050042;
-        public static final int eteNumeros=0x7f050040;
+        public static final int ete=0x7f050043;
+        public static final int eteNumeros=0x7f050041;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
         public static final int home=0x7f050014;
@@ -1131,12 +1134,15 @@ containing a value of this type.
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
+        public static final int spiAlumnos=0x7f05003c;
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
-        public static final int tvi=0x7f050041;
+        public static final int tvi=0x7f050042;
+        public static final int tviCodigoAlumno=0x7f050046;
+        public static final int tviNombreAlumno=0x7f050047;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
@@ -1192,9 +1198,11 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_linear=0x7f030018;
-        public static final int activity_main=0x7f030019;
-        public static final int activity_relative=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int activity_listados_spinner=0x7f030019;
+        public static final int activity_main=0x7f03001a;
+        public static final int activity_relative=0x7f03001b;
+        public static final int item_listado_alumnos=0x7f03001c;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 

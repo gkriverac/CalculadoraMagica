@@ -15,25 +15,24 @@
         android:id="@+id/ete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"
+        android:layout_alignLeft="@id/tvi"
         android:layout_below="@id/tvi"
-        android:layout_alignLeft="@id/tvi" />
-
-    <Button
-        android:id="@+id/butOk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/butok"
-        android:layout_toLeftOf="@id/butCancel"
-        android:layout_below="@id/ete"
-         />
+        android:inputType="text" />
 
     <Button
         android:id="@+id/butCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/but_cancel"
         android:layout_alignRight="@id/ete"
-        android:layout_below="@id/ete" />
+        android:layout_below="@id/ete"
+        android:text="@string/but_cancel" />
+
+    <Button
+        android:id="@+id/butOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ete"
+        android:layout_toLeftOf="@id/butCancel"
+        android:text="@string/butok" />
 
 </RelativeLayout>
