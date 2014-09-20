@@ -1,0 +1,51 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/but7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="104dp"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/but8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="104dp"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/but9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="105dp"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/butMas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="106dp"
+        android:text="+" />
+
+    <EditText
+        android:id="@+id/eteNumeros"
+        android:layout_width="283dp"
+        android:layout_height="78dp"
+        android:layout_x="15dp"
+        android:layout_y="14dp"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+</AbsoluteLayout>
